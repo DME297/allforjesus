@@ -51,7 +51,7 @@
 
     .overlay-text .quote {
       font-size: 26px;
-      margin-top: 100px;     /* space below title */
+      margin-top: 180px;     /* space below title */
       padding: 0 20px;      /* prevents touching edges */
       line-height: 1.4;
       word-wrap: break-word;
