@@ -16,23 +16,25 @@
 
     .postcard-container {
       position: relative;
-      width: 400px;
-      height: 600px;
+      width: 90vw;       /* Use 90% of the screen width */
+      max-width: 400px;  /* Limit max size for bigger screens */
+    height: auto;      /* Height scales automatically */
     }
 
     canvas {
-      width: 400px;
-      height: 600px;
-      border-radius: 15px;
-      display: block;
+     width: 100%;       /* Full width of container */
+     height: auto;      /* Maintain aspect ratio */
+     border-radius: 15px;
+     display: block;
     }
 
     .overlay-text {
       position: absolute;
-      top: 70px;           /* title near top */
-      left: 0;
-      right: 0;
-      bottom: 60px;        /* leaves space for socials */
+      top: 5%;
+      left: 5%;
+      right: 5%;
+      bottom: 60px;
+      padding: 0 5%;
       display: flex;
       flex-direction: column;
       align-items: center;
