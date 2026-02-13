@@ -50,7 +50,7 @@
     }
 
     .overlay-text .quote {
-      font-size: 23px;
+      font-size: 21px;
       top: 180px;     /* space below title */
       padding: 0 20px;      /* prevents touching edges */
       line-height: 1.4;
